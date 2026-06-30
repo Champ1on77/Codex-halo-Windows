@@ -189,7 +189,7 @@ Codex Halo/
 Windows 的 `.lnk` 快捷方式保存的是绝对路径。例如：
 
 ```text
-F:\Users\23640\Desktop\Codex Halo\_internal\Start-CodexHalo.ps1
+F:\Users\XXX\Desktop\Codex Halo\_internal\Start-CodexHalo.ps1
 ```
 
 复制到另一台电脑后，用户名、盘符、桌面路径都可能不同，所以原来的快捷方式会失效。`Install-CodexHalo.cmd` 会按当前电脑的新路径重新生成：
